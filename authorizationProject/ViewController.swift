@@ -24,7 +24,6 @@ class ViewController: UIViewController {
         
         
         if userName.text == user && password.text == pass {
-            WelcomeView()
             userName.text = ""
             password.text = ""
         }else {
