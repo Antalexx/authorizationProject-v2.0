@@ -24,7 +24,9 @@ class ViewController: UIViewController {
         
         
         if userName.text == user && password.text == pass {
-            //переход в другой экран
+            WelcomeView()
+            userName.text = ""
+            password.text = ""
         }else {
             present(alertLogin, animated: true)
             userName.text = ""
@@ -47,6 +49,15 @@ class ViewController: UIViewController {
         present(alertFyun, animated: true)
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let destination = segue.destination as? WelcomeView else { return }
+        destination.lableW = "Welcome,\(user)!"
+    }
+    
+    @IBAction func tap(_ sender: Any) {
+        userName.resignFirstResponder()
+        password.resignFirstResponder()
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
