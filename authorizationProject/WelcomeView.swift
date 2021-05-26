@@ -12,16 +12,10 @@ class WelcomeView: UIViewController {
     var lableW = ""
     @IBOutlet weak var lableWelcomeView: UILabel!
     
-    
-    
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         lableWelcomeView.text = lableW
     }
-    
-    
     
     @IBAction func exit() {
         dismiss(animated: true)
