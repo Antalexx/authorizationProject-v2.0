@@ -15,13 +15,12 @@ class ViewController: UIViewController {
     @IBOutlet weak var forgotYouPassword: UIButton!
     @IBOutlet weak var forgotYouUserName: UIButton!
     
-    let user = "shikaka"
-    let pass = "password"
+    private let user = "shikaka"
+    private let pass = "password"
     
     @IBAction func login() {
         let alertLogin = UIAlertController(title: "📛", message: "Ахтунг!! Введи правильно", preferredStyle: .alert)
         alertLogin.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
-        
         
         if userName.text == user && password.text == pass {
             userName.text = ""
@@ -49,7 +48,7 @@ class ViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        guard let destination = segue.destination as? WelcomeView else { return }
+        guard let destination = segue.destination as? WelcomeViewController else { return }
         destination.lableW = "Welcome,\(user)!"
     }
     

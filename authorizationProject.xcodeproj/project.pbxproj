@@ -13,7 +13,7 @@
 		909AD67B265E99B700079301 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 909AD679265E99B700079301 /* Main.storyboard */; };
 		909AD67D265E99B800079301 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 909AD67C265E99B800079301 /* Assets.xcassets */; };
 		909AD680265E99B800079301 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 909AD67E265E99B800079301 /* LaunchScreen.storyboard */; };
-		909AD688265EB37200079301 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909AD687265EB37200079301 /* WelcomeView.swift */; };
+		909AD688265EB37200079301 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909AD687265EB37200079301 /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		909AD67C265E99B800079301 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		909AD67F265E99B800079301 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		909AD681265E99B800079301 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		909AD687265EB37200079301 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		909AD687265EB37200079301 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 				909AD673265E99B700079301 /* AppDelegate.swift */,
 				909AD675265E99B700079301 /* SceneDelegate.swift */,
 				909AD677265E99B700079301 /* ViewController.swift */,
-				909AD687265EB37200079301 /* WelcomeView.swift */,
+				909AD687265EB37200079301 /* WelcomeViewController.swift */,
 				909AD679265E99B700079301 /* Main.storyboard */,
 				909AD67C265E99B800079301 /* Assets.xcassets */,
 				909AD67E265E99B800079301 /* LaunchScreen.storyboard */,
@@ -146,7 +146,7 @@
 				909AD678265E99B700079301 /* ViewController.swift in Sources */,
 				909AD674265E99B700079301 /* AppDelegate.swift in Sources */,
 				909AD676265E99B700079301 /* SceneDelegate.swift in Sources */,
-				909AD688265EB37200079301 /* WelcomeView.swift in Sources */,
+				909AD688265EB37200079301 /* WelcomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
